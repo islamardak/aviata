@@ -1,20 +1,19 @@
 <template>
   <div class="container">
-    Test
+    <card/>
   </div>
 </template>
 
 <script>
-
+import Card from "@/components/card/index.vue";
 export default {
   name: 'App',
   components: {
+    Card
   }
 }
 </script>
 
 <style lang="scss" scoped>
-.container{
-  background: red;
-}
+
 </style>
